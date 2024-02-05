@@ -19,6 +19,7 @@ import java.util.Date;
  *
  * @author Leo Ureel
  */
+
 public abstract class AbstractStock {
 	private String symbol = null;
 	private Long timestamp = null;

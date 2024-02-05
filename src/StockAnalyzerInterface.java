@@ -32,6 +32,7 @@ public interface StockAnalyzerInterface {
 	 * @return The list of stocks read in from the specified file.
 	 * @throws FileNotFoundException
 	 */
+
 	public abstract ArrayList<AbstractStock> loadStockData ( File file ) throws FileNotFoundException;
 
 	/**
