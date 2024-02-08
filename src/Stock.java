@@ -15,11 +15,6 @@ public class Stock extends AbstractStock {
         super(symbol, timestamp, open, high, low, close, volume);
     }
 
-    public String getSymbol(String symbol) {
-        return null; // BRUH
-    }
-
-
     /**
      * @return a String representing the stock in the format:
      * [SYMBOL:OPEN,CLOSE] where OPEN and CLOSE are rounded to the
@@ -28,8 +23,6 @@ public class Stock extends AbstractStock {
      */
     @Override
     public String toString() {
-        return null; //Written Null but later needs to be changed to match the statement above.
+        return null;
     }
-
-
 }
