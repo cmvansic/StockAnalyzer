@@ -23,6 +23,6 @@ public class Stock extends AbstractStock {
      */
     @Override
     public String toString() {
-        return null;
+        return String.format("[%s: %.2f, %.2f]", getSymbol(), getOpen(), getClose());
     }
 }
