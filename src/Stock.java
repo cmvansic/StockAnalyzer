@@ -11,7 +11,7 @@ public class Stock extends AbstractStock {
      * @param close     : the price at the end of trading for the day
      * @param volume    : the number of shares traded that day
      */
-    public Stock(String symbol, Long timestamp, double open, double high, double low, double close, double volume) {
+    public Stock(String symbol, long timestamp, double open, double high, double low, double close, double volume) {
         super(symbol, timestamp, open, high, low, close, volume);
     }
 
