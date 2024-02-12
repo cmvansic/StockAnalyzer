@@ -1,6 +1,18 @@
 public class Stock extends AbstractStock {
 
     /**
+     *
+     * This java program takes a stock .csv file, for example "TSLA.csv" and analyzes it through different methods.
+     * Date Last Modified 2/12/2024
+     *
+     * @author Caden VanSickle & Brenden Keahl
+     * CS1122 Spring Semester
+     *
+     * Lab Section L03, Group 76
+     *
+     */
+
+    /**
      * Constructor used to initialize a new instance of the stock
      *
      * @param symbol    : the ticker symbol of the stock (e.g. MSFT for Microsoft)
